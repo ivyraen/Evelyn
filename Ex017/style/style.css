@@ -1,0 +1,65 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+    background-color: rgb(167, 133, 221);
+}
+
+#principal{
+    background-color: rgba(233, 219, 240, 0.349);
+    max-width: 500px;
+    min-width: 400px;
+    color: aliceblue;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+#principal h1{
+    font-size: 40px;
+    color: rgb(58, 6, 143);
+    margin-bottom: 20px;
+}
+
+input{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(185, 97, 226);
+}
+
+#resultado{
+    margin-top: 20px;
+    text-align: left;
+}
+.primo{
+    display: inline-block;
+    width: 50px;
+    margin:3 px;
+    text-align: center;
+    background-color: blueviolet;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    border: 2x solid black;
+    border-radius: 10px;
+}
+
+.primo:hover {
+    background-color: aliceblue;
+}
